@@ -17,7 +17,7 @@ namespace SeminarTasks.Tests
 
         [TestCase(-15)]
         [TestCase(-2)]
-        public void ThrowsOnHoursLowThanZero(int hours)
+        public void ThrowsOnHoursLowerThanZero(int hours)
         {
             Assert.Throws(typeof(ArgumentOutOfRangeException), () =>
             ClocksDegreeCalculator.DegreesFromHours(hours));
