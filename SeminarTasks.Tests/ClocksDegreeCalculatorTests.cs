@@ -2,7 +2,7 @@
 
 namespace SeminarTasks.Tests
 {
-    internal class ClocksDegreeCalculatorTests
+    public class ClocksDegreeCalculatorTests
     {
         [TestCase(0, 0)]
         [TestCase(2, 60)]
