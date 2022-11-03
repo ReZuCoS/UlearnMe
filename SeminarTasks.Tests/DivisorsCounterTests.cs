@@ -32,8 +32,10 @@ namespace SeminarTasks.Tests
         }
 
         [TestCase(20, 3, 5, 8)]
+        [TestCase(13, 2, 3, 8)]
         [TestCase(30, 5, 7, 9)]
         [TestCase(10, 3, 5, 4)]
+        [TestCase(100, 7, 11, 22)]
         public void CheckDivisorsCount(int n, int x, int y, int expectedDivisiorsCount)
         {
             Assert.That(DivisorsCounter.Count(n, x, y), Is.EqualTo(expectedDivisiorsCount));
