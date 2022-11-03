@@ -1,4 +1,11 @@
-﻿namespace SeminarTasks.Task3
+﻿/* Expression 3
+ * Задано время Н часов (ровно).
+ * Вычислить угол в градусах между часовой и минутной стрелками.
+ * Например, 5 часов -> 150 градусов, 20 часов -> 120 градусов.
+ * Не использовать циклы.
+ */
+
+namespace SeminarTasks.Task3
 {
     public static class ClocksDegreeCalculator
     {
